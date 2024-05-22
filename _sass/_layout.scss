@@ -8,6 +8,7 @@
   }
 }
 
+// Body
  body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -33,11 +34,95 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
+// Top banner
+/* Layout */
+.top-banner, .top-banner div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+.top-banner {
+  background: #052049;
+  height: 32px;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.top-banner .inner {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.top-banner div.inner div {
+  float: left;
+  padding: 8px 0 7px 30px;
+  text-align: left;
+}
+
+.top-banner.logo div.inner div {
+  padding: 13px 0 13px 0;
+}
+
+.top-banner.logo,.top-banner.logo .inner,.top-banner.logo div.inner div {
+  height: 40px;
+}
+
+.top-banner div.inner div.nav {
+  float: right;
+  padding-right: 16px;
+  text-align: right;
+}
+
+.top-banner ul, .top-banner li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.top-banner a {
+  color: #ffffff;
+  display: inline;
+  text-decoration: none;
+}
+
+.top-banner a:hover {
+  text-decoration: none;
+  color: #052049;
+}
+
+.top-banner.logo .inner {
+  height: 40px;
+  background: url("../assets/img/ucsf-logo-banner.png") 30px 50% no-repeat;
+  padding-left: 97px;
+}
+
+
+:root .top-banner.logo .inner {
+  background: url("../assets/img/ucsf-logo-banner.svg") 30px 50% no-repeat;
+  background-size: 45px 22px;
+}
+
+.top-banner-menu a {
+  padding: 0 14px;
+}
+
+.top-banner.teal {
+  background: #18a3ac;
+}
+
+.top-banner.light-blue {
+  background: #007cbe
+}
+
+
+
+// Footer
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: 30px 0;
-  background: #007cbe;
+  background: #003da5;
 }
 
 .footer-heading {
@@ -56,7 +141,7 @@ body.sticky-bottom-footer {
   text-align: left;
   width: 100%;
   color: #ffffff;
-  background: #007cbe;
+  background: #003da5;
 }
 
 .bottom-banner .inner {
@@ -68,14 +153,14 @@ body.sticky-bottom-footer {
   float: left;
   padding: 0px 0 0px 30px;
   text-align: left;
-  background: #007cbe;
+  background: #003da5;
 }
 
 .bottom-banner div.inner div.nav {
   float: right;
   padding-right: 13px ;
   text-align: right;
-  background: #007cbe;
+  background: #003da5;
 }
 
 .bottom-banner ul, .bottom-banner li {
@@ -101,12 +186,13 @@ body.sticky-bottom-footer {
 }
 
 .bottom-banner.light-blue {
-  background: #007cbe
+  background: #003da5
 }
 
 @media screen and (min-width:660px) and (max-width:1229px) {
-
-
+  .top-banner .inner {
+    width: 100%;
+}
   .bottom-banner .inner {
       width: 100%;
   }
@@ -114,28 +200,53 @@ body.sticky-bottom-footer {
 }
 
 @media screen and (max-width:659px) {
+  .top-banner.logo, .top-banner.logo .inner, .top-banner.logo div.inner div {
+    height: 30px;
+}
+
+.top-banner .inner {
+    width: 100%;
+}
+
+.bottom-banner .inner {
+    width: 100%;
+}
+
+.top-banner.logo .inner {
+    background: url("../assets/img/ucsf-logo-banner-mobile.png") 30px 50% no-repeat;
+    padding-left: 87px;
+}
+
+:root .top-banner.logo .inner {
+    background-size: 37px 18px;
+}
+
+.top-banner div.inner div {
+    height: 30px;
+    padding: 8px 0 8px 30px;
+    width: 100%;
+}
+
+.bottom-banner div.inner div {
+    padding: 8px 0 0px 30px;
+    width: 100%;
+}
+
+.top-banner.logo div.inner div {
+    padding: 8px 0 8px 0;
+}
+
+.top-banner .logo span,.top-banner div.inner div.nav {
+    display: none;
+}
 
 
-  .bottom-banner .inner {
-      width: 100%;
-  }
-
-
-
-
-  .bottom-banner div.inner div {
-      padding: 8px 0 0px 30px;
-      width: 100%;
-  }
-
-
-
-  .bottom-banner ul, .bottom-banner li {
-      display: block;
-      text-align: left;
-      margin: 5px 0 5px 0 ;
-      padding: 0;
-  }
+.bottom-banner ul, .bottom-banner li {
+    display: block;
+    text-align: left;
+    margin: 5px 0 5px 0 ;
+    padding: 0;
+}
 
 
 }
