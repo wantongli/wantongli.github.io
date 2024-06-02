@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://wantongli.github.io/sitemap.xml
