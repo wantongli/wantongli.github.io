@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class="post">
+
+  <header class="post-header">
+    {% include social.liquid %}
+    <h1 class="post-title">
+     {% if page.sitetitle %}{{ site.title }}{% else %}{{ page.title }}{% endif %}
+    </h1>
+      {% comment %}<p class="post-description">{{ page.description }}</p>{% endcomment %}
+  </header>
+
+  <article>
+    {% if page.profile %}
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+        {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+          <img class="img-fluid{% assign ext = page.profile.image | slice: -4, 4 %}{% if ext != '.svg' %} z-depth-1 rounded{% endif %}" src="{{ page.profile.image | prepend: '/assets/img/team/' | relative_url }}" alt="{{ page.profile.name }}">
+        {% if page.profile.href %}</a>{% endif %}
+      {% endif %}
+      {% if page.profile.address %}
+        <div class="address">
+          <p>
+            {% if page.profile.href %}<a href="{{ page.profile.href | relative_url }}">{% endif %}
+              <span class="name">{{ page.profile.name }}</span>
+            {% if page.profile.href %}</a>{% endif %}
+            {% if page.profile.position %}<br />{{ page.profile.position }}{% endif %}
+            {% if page.profile.email %}<br /><a href="mailto:{{ page.profile.email }}"><i class="fas fa-envelope"></i> {{ page.profile.email }}</a>{% endif %}
+            {% if page.profile.phone %}<br /><a href="tel:{{ page.profile.phone }}"><i class="fas fa-phone"></i> {{ page.profile.phone }}</a>{% endif %}
+          </p>
+          <p class="post">{{ page.profile.address }}</p>
+        </div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="clearfix">
+      {{ content }}
+
+        {% if page.social %}
+        <div class="social mt-5 pt-5 mb-5 pb-5">
+            {% include social.liquid %}
+            <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+        {% endif %}
+    </div>
+
+    {% if page.news %}
+      <h2 id="news">News</h2>
+      {% include news.liquid %}
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <h2 id="recent-publications">Recent Publications</h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+
+    {% if page.publications %}
+      <h2 id="publications">Publications</h2>
+      <div class="publications">
+        {% bibliography -f papers -q @*[{{page.publications}}]* %}
+      </div>
+    {% endif %}
+  </article>
+
+</div>

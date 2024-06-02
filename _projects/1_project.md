@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 1
+title: PVT-Robust RRAM-Based CIM Chip
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+category: Memory-Centric IC Design
 ---
 
 Every project has a beautiful feature showcase page.

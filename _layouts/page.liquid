@@ -3,13 +3,31 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
+    <p class="post-description" style="font-size: 1rem">{{ page.description }}</p>
+    {% if page.title == "Publications" %}
+      <div style="text-align: right;">
+      <div style="float: left;">
+
+      <!-- Add texts below if necessary -->
+      <!-- <p>Left Text 1</p> -->
+      
+      </div> 
+      <abbr 
+      class="badge rounded w-25" style="background-color: #B509AC; font-size:0.9rem;">{{ "Journal Publication" }}
+      </abbr>
+      <br> </br>
+      <br> </br>
+      <abbr 
+      class="badge rounded w-25" style="background-color: #00ab37; font-size:0.9rem;">{{ "Conference Publication" }}
+      </abbr>
+      </div>
+    {% endif %}
 
   <article>
     {{ content }}
   </article>
+
+
 
   {% if page.related_publications %}
     <h2>References</h2>
@@ -18,7 +36,5 @@ layout: default
     </div>
   {% endif %}
 
-  {% if site.giscus and page.giscus_comments %}
-    {% include giscus.liquid %}
-  {% endif %}
+
 </div>

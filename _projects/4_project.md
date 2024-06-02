@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Heterogeneous 3-D Integrated Hybrid CIM Accelerator
 description: another without an image
-img:
-importance: 3
-category: fun
+img: assets/img/7.jpg
+importance: 1
+category: Heterogeneous Integrated Nanosystems
 ---
 
 Every project has a beautiful feature showcase page.

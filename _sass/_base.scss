@@ -55,6 +55,10 @@ table.table a {
   }
 }
 
+figure, img {
+  max-width: 90vw;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
@@ -161,7 +165,6 @@ ul.task-list input[type="checkbox"] {
 
   .card-img {
     width: 100%;
-    padding-top: 1.25rem;
   }
 
   .card-title {
@@ -169,7 +172,17 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.0rem 1.0rem 1.0rem 1.0rem;
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
   }
 }
 
@@ -618,9 +631,19 @@ footer.sticky-bottom {
     }
   }
 
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 270px;
     margin-bottom: 10px;
   }
 
@@ -671,8 +694,6 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;
@@ -836,7 +857,53 @@ code {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
-  padding: 3px 3px;
+  padding: 0px 0px;
+}
+
+// Projects, support, team overview
+
+.about-tiles + div {
+  .card-header {
+    height: 8rem;
+    line-height: 8rem;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 2.4rem;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    img[src $= ".svg"] {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .completed {
+    height: 1rem;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  }
+
+  .completed + .card-header {
+    height: 7rem;
+    line-height: 7rem;
+  }
+}
+
+a.no-decoration:hover {
+    text-decoration: none;
+}
+
+// Team
+.team {
+  .card-body {
+    a:first-of-type {
+      text-decoration: none;
+    }
+   padding: 13.5px;  
+  }
 }
 
 // Transitioning Themes

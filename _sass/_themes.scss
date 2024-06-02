@@ -14,11 +14,14 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-divider-color: rgba(0, 0, 0, 0.3);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: #{$black-color};
   --global-back-to-top-text-color: #{$white-color};
+
+  --global-ucr-blue-color: #003da5;
+  --global-ucr-blue-bg-color: rgba(#003da5, 0.05);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
