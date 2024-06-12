@@ -4,7 +4,7 @@ title: Heterogeneous 3-D Integrated Hybrid CIM Accelerator
 description: another without an image
 img: assets/img/7.jpg
 importance: 1
-category: Heterogeneous Integrated Nanosystems
+category: Heterogeneous Nanosystems
 ---
 
 Every project has a beautiful feature showcase page.

@@ -13,7 +13,7 @@ lastname: Li
 
 
 teaser: >
-    Dr. Wantong Li is an assistant professor of electrical and computer engineering at The University of California, Riverside. He directs the Intelligent Computing Architecture and Nanosystems (ICAN) Group.
+    Dr. Wantong Li is a tenure-track assistant professor of electrical and computer engineering at the University of California, Riverside. He directs the Intelligent Computing Architecture and Nanosystems (ICAN) Group. He received the Ph.D. degree from the Georgia Institute of Technology. His research interests span the areas of memory-centric computing, emerging logic and memory technologies, reliable and robust IC design, 2.5-D/3-D integrated nanosystems, and software-hardware co-design for edge AI.
 
 profile:
     name: Dr. Wantong Li

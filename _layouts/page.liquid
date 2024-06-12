@@ -4,24 +4,24 @@ layout: default
 <div class="post">
   <header class="post-header">
     <p class="post-description" style="font-size: 1rem">{{ page.description }}</p>
+
+    <!-- uncomment to have the two bars on top
     {% if page.title == "Publications" %}
       <div style="text-align: right;">
       <div style="float: left;">
-
-      <!-- Add texts below if necessary -->
-      <!-- <p>Left Text 1</p> -->
       
       </div> 
       <abbr 
-      class="badge rounded w-25" style="background-color: #B509AC; font-size:0.9rem;">{{ "Journal Publication" }}
+      class="badge rounded w-25" style="background-color: #8200bf; font-size:0.9rem;">{{ "Journal Publication" }}
       </abbr>
       <br> </br>
       <br> </br>
       <abbr 
-      class="badge rounded w-25" style="background-color: #00ab37; font-size:0.9rem;">{{ "Conference Publication" }}
+      class="badge rounded w-25" style="background-color: #208833; font-size:0.9rem;">{{ "Conference Publication" }}
       </abbr>
       </div>
     {% endif %}
+    -->
 
   <article>
     {{ content }}

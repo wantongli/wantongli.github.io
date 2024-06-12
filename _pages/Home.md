@@ -5,22 +5,32 @@ permalink: /
 subtitle: 
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image:
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to the Intelligent Computing Architecture & Nanosystem (ICAN) Group at UC Riverside! <br>
+ICAN is led by [<b>Prof. Wantong Li</b>](/members/wantong) in the [<b>Department of Electrical and Computer Engineering</b>](https://www.ee.ucr.edu/). 
+<br><br>
+We explore interdisciplinary research opportunities in microelectronics, computing hardware, heterogeneous integration, and artificial intelligence. Through the efficient and intelligent computing enabled by these emerging technologies, we also aim to drive the advancements in the application spaces of smart sensing, healthcare, and autonomous systems. Our intellectual pursuit is to
+<br><br>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<h3>Research Interests</h3>
+<ul style="list-style-type:disc">
+<li><b><span style="color: #007cde;">Memory-Centric Computing</span></b></li>
+<li style="margin-top: 5px;"><b><span style="color: #007cde;">Emerging Logic and Memory Technologies</span></b></li>
+<li style="margin-top: 5px;"><b><span style="color: #007cde;">Heterogeneous Integrated Nanosystems</span></b></li>
+<li style="margin-top: 5px;"><b><span style="color: #007cde;">SW/HW Co-Design for Embedded AI</span></b></li>
+</ul>
+<br>
 
-<h3>Research Opportunities</h3>
-We are always looking for talented and motivated students to join ICAN. We have multiple fully-funded Ph.D. positions for 2025. We also welcome B.S. and M.S. researchers. Please read [this page](/JoinUs/) for more details.
+<h3>Opportunities</h3>
+We are looking for talented and motivated students to join ICAN. There are multiple fully-funded Ph.D. positions for 2025. We also welcome undergraduate and master's researchers. Please read [<b>this page</b>](/JoinUs/) for more details.
+<br><br>

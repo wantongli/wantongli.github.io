@@ -4,7 +4,7 @@ title: 2.5-D Integration of CMOS Image Sensor & Processing
 description: 
 img: assets/img/1.jpg
 importance: 2
-category: Heterogeneous Integrated Nanosystems
+category: Heterogeneous Nanosystems
 ---
 
 Every project has a beautiful feature showcase page.

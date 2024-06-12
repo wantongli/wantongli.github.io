@@ -4,7 +4,7 @@ title: Near-Pixel Frame Filtering for Autonomous Driving
 description: with background image
 img: assets/img/12.jpg
 importance: 2
-category: Intelligent Data Reduction Co-Design
+category: Intelligent Data Reduction
 ---
 
 Every project has a beautiful feature showcase page.

@@ -4,7 +4,7 @@ title: Low-Power Portable Ultrasound Imaging
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: Intelligent Data Reduction Co-Design
+category: Intelligent Data Reduction
 ---
 
 Every project has a beautiful feature showcase page.
