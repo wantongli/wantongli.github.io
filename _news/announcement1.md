@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Wantong Li joins the Department of Electrical and Computer Engineering at UC Riverside as a tenure-track Assistant Professor.
+Wantong Li joins UC Riverside's Department of Electrical and Computer Engineering as a tenure-track Assistant Professor.

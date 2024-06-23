@@ -15,19 +15,19 @@ Extensive experience in at least one of these technical areas is expected.
 <h4>Qualifications</h4>
 
 <ul style="list-style-type:disc">
-<li><b><span style="color: #007cde;">Integrated Circuits & VLSI</span></b></li> Analog IC design, digital IC design, chip tape-out flow, advanced packaging, device modeling
-<li style="margin-top: 8px;"><b><span style="color: #007cde;">Computer Architecture</span></b></li> Near-memory/in-memory computing, AI accelerator, simulator development, C/C++ programming
-<li style="margin-top: 8px;"><b><span style="color: #007cde;">SW/HW Co-Design</span></b></li> Machine learning and deep learning, ML development framework, FPGA programming, embedded systems
+<li><b><span style="color: #007cde;">Integrated Circuits & VLSI</span></b></li> Analog IC Design, Verilog RTL, Physical Design, Verilog-A/AMS Modeling, Advanced Packaging Design
+<li style="margin-top: 8px;"><b><span style="color: #007cde;">Computer Architecture</span></b></li> In/Near-Memory Computing, Memory Systems, Simulator Development, C/C++ Programming
+<li style="margin-top: 8px;"><b><span style="color: #007cde;">SW/HW Co-Design for AI</span></b></li> Basic DNN Theory, ML Framework (TensorFlow/PyTorch), FPGA Programming, Embedded Systems
 </ul>
 
 <h4>Ph.D. Students</h4>
-<b><span style="color: #ffb02c;">Multiple fully-funded Ph.D. positions are available for 2025.</span></b> Prospective students should contact us about your interests and qualifications. Candidates are also encouraged to indicate Dr. Li as the faculty of interest in your application statement.
+<b><span style="color: #FFA500;">Multiple fully-funded Ph.D. positions are available for 2025.</span></b> Prospective students should contact us about your interests and qualifications. Candidates are also encouraged to indicate Dr. Li as the faculty of interest in your application statement.
 
 <h4>Undergraduate and Master's Students</h4>
-<b><span style="color: #ffb02c;">ICAN welcomes undergraduate and master's researchers.</span></b> A long-term commitment is expected. For master's students, working with us through Master's thesis is preferred.
+<b><span style="color: #FFA500;">ICAN welcomes Undergraduate and Master's researchers.</span></b> A long-term commitment is expected. For Master's students, working with us through Master's thesis is preferred.
 
 <h4>Contact Us</h4>
-If you are interested in joining the ICAN Group, please email `xxx@gmail.com` with the email title of "Prospective Student: your name, degree level you are applying (BS, MS, or PhD)" and the following information:
+If you are interested in joining the ICAN Group, please email `ican.ucr@gmail.com` with the email title of "Prospective Student: your name, degree level (BS, MS, or PhD)", as well as the following information about you:
 <ul style="list-style-type:disc">
 <li>Current CV</li>
 <li>Undergraduate (and Master's if applicable) transcripts</li>

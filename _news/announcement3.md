@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Li gave an invited talk at DAC iMACAW workshop.
+Wantong Li gives an invited talk "Efficient & Reliable RRAM-based Compute-in-Memory for Edge Intelligence" at In-Memory Architectures and Computing Applications Workshop (<strong>iMACAW</strong>) @ DAC.

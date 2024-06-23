@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Li presented at DAC PhD Forum.
+Wantong Li presents "Efficient and Reliable Vision Accelerator with Compute-in-Memory" at <strong>DAC Ph.D. Forum</strong>.

@@ -32,17 +32,8 @@ nav_order: 1
                     {% if member.profile.email %}
                         <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
                     {% endif %}
-                    {% if member.profile.phone %}
-                        <a href="tel:{{ member.profile.phone }}" class="card-link"><i class="fas fa-phone"></i></a>
-                    {% endif %}
                     {% if member.profile.google %}
                         <a href="{{ member.profile.google }}" class="card-link" target="_blank"><i class="fa-brands fa-google-scholar"></i></a>
-                    {% endif %}
-                    {% if member.profile.twitter %}
-                        <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
-                    {% endif %}
-                    {% if member.profile.github %}
-                        <a href="https://github.com/{{ member.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
                     {% endif %}
                     {% if member.profile.website %}
                         <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
