@@ -12,6 +12,7 @@ Please feel free to contact us if you have the background and interests in one o
 Extensive experience in at least one of these technical areas is expected.
 <br>
 
+
 <h4>Qualifications</h4>
 
 <ul style="list-style-type:disc">
@@ -27,7 +28,7 @@ Extensive experience in at least one of these technical areas is expected.
 <b><span style="color: #FFA500;">ICAN welcomes Undergraduate and Master's researchers.</span></b> A long-term commitment is expected. For Master's students, working with us through Master's thesis is preferred.
 
 <h4>Contact Us</h4>
-If you are interested in joining the ICAN Group, please email `ican.ucr@gmail.com` with the email title of "Prospective Student: your name, degree level (BS, MS, or PhD)", as well as the following information about you:
+If you are interested in joining the ICAN Group, please email <b><span style="color: #FFA500;">ican.ucr@gmail.com</span></b> with the email title of "Prospective Student: your name, degree level (Bachelor's, Master's, or Ph.D.)", as well as the following information about you:
 <ul style="list-style-type:disc">
 <li>Current CV</li>
 <li>Undergraduate (and Master's if applicable) transcripts</li>

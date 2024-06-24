@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Wantong Li gives an invited talk "Efficient, Robust, and Heterogeneous Compute-in-Memory for Edge Intelligence" in the CESG Seminar Series of <strong>Texas A&M University</strong>.
+Wantong Li gives an invited talk "Efficient, Robust, and Heterogeneous Compute-in-Memory for Edge Intelligence" in the CESG seminar series of <strong>Texas A&M University</strong>.

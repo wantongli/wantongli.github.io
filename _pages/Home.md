@@ -19,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 Welcome to the Intelligent Computing Architecture & Nanosystem (ICAN) Group at UC Riverside. <br>
 The ICAN Group is directed by [<b>Prof. Wantong Li</b>](/members/wantong) in the [<b>Department of Electrical and Computer Engineering</b>](https://www.ee.ucr.edu/). 
 <br><br>
-We explore interdisciplinary research opportunities in integrated circuits, computing hardware, heterogeneous integration, and artificial intelligence. Our intellectual pursuit is to develop efficient and robust machine intelligence at the edge. By conducting innovative research across the stack, we aim to drive advancements in the emerging application spaces of smart sensing, healthcare, and autonomous systems.
+We explore interdisciplinary research opportunities in integrated circuits, computing hardware, heterogeneous integration, and artificial intelligence. Our intellectual pursuit is to develop efficient and robust machine intelligence for the edge. By conducting innovative research across the stack, we also aim to drive advancements in the emerging application spaces of smart sensing, healthcare, and autonomous systems.
 <br><br>
 
 <h3>Research Interests</h3>
