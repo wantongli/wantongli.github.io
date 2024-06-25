@@ -26,8 +26,8 @@ profile:
     twitter: 
     google: https://scholar.google.com/citations?user=zYf_8XAAAAAJ
     address: >
-        Office 163<br />
-        Musculoskeletal Biomechanics Research Lab<br />
+        Office 163<br/>
+        Musculoskeletal Biomechanics Research Lab<br/>
         McDonald Engineering Building.
 ---
 
