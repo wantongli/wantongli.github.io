@@ -13,7 +13,7 @@ lastname: Li
 
 
 teaser: >
-  Wantong Li is a tenure-track assistant professor of electrical and computer engineering at the University of California, Riverside. He directs the Intelligent Computing Architecture and Nanosystems (ICAN) Group. He received the Ph.D. degree from the Georgia Institute of Technology. His research interests span the areas of memory-centric computing, emerging logic and memory technologies, reliable and robust IC design, 2.5-D/3-D integrated nanosystems, and software-hardware co-design for edge AI.
+  Wantong Li is a tenure-track assistant professor of electrical and computer engineering at the University of California, Riverside. He directs the Intelligent Computing Architecture and Nanosystem (ICAN) Group. He received the Ph.D. degree from the Georgia Institute of Technology. His research interests span the areas of memory-centric computing, emerging logic and memory technologies, reliable and robust IC design, 2.5-D/3-D integrated nanosystems, and software-hardware co-design for edge AI.
 
 profile:
     name: Dr. Wantong Li
@@ -32,12 +32,12 @@ profile:
 ---
 
 ### Biosketch
-Wantong Li is an assistant professor of electrical and computer engineering at The University of California, Riverside, where he directs the Intelligent Computing Architecture and Nanosystems (ICAN) Group. He received the B.S. degree in electrical engineering from Washington University in St. Louis in 2015, and the M.S. degree in electrical engineering from Columbia University in 2016. He obtained the Ph.D. degree from Georgia Institute of Technology, where he was advised by [Prof. Shimeng Yu](https://shimeng.ece.gatech.edu/). From 2017 to 2019, he worked as an IC design engineer at Power Integrations and Micron Technology. He also held internship positions at AMD, MediaTek, Roche Diagnostics, and bioMérieux.
+Wantong Li is an assistant professor of electrical and computer engineering at The University of California, Riverside, where he directs the Intelligent Computing Architecture and Nanosystem (ICAN) Group. He received the B.S. degree in electrical engineering from Washington University in St. Louis in 2015, and the M.S. degree in electrical engineering from Columbia University in 2016. He obtained the Ph.D. degree from Georgia Institute of Technology, where he was advised by [Prof. Shimeng Yu](https://shimeng.ece.gatech.edu/). From 2017 to 2019, he worked as an IC design engineer at Power Integrations and Micron Technology. He also held internship positions at AMD, MediaTek, Roche Diagnostics, and bioMérieux.
 
 ### Education
-* Ph.D., Electrical and Computer Engineering, Georgia Institute of Technology, 2024
-* M.S., Electrical Engineering, Columbia University, 2016
-* B.S., Electrical Engineering, Washington University in St. Louis, 2015
+* Ph.D., electrical and computer engineering, Georgia Institute of Technology, 2024
+* M.S., electrical engineering, Columbia University, 2016
+* B.S., electrical engineering, Washington University in St. Louis, 2015
 
 ### Honors and Awards
 * ECE Interdisciplinary Research (INSPIRE) Fellowship, Georgia Tech
@@ -76,3 +76,4 @@ Wantong Li is an assistant professor of electrical and computer engineering at T
 * "RRAM-based Compute-in-Memory Macro Tape-out", SRC ASCENT Center annual review, virtual, Aug. 2021.
 * "Secure-RRAM: A 40nm 16kb Compute-in-Memory Macro with Reconfigurability, Sparsity Control, and Embedded Security", IEEE Custom Integrated Circuits Conference (CICC), virtual, Apr. 2021.
 * "RRAM-CIM Design with Reconfigurability and Embedded Security", TSMC, virtual, Jun. 2020.
+<br>
